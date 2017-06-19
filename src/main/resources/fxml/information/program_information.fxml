@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox spacing="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox>
+         <children>
+            <Label text="Project Planning">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <VBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+               <children>
+                  <Label text="0.1" />
+                  <Label text="Niklas Natter" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Label minHeight="-Infinity" text="Showcase application for the aspguid language extension and the aspguid compiler. Computes a project plan for a given project instance according to the project planning problem." wrapText="true" />
+   </children>
+</VBox>

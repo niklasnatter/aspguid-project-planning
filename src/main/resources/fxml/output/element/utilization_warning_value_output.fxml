@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="rootNode" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aspguidp.controller.output.element.impl.Utilization_warningValueOutputController">
+   <children>
+      <Label text="Warning!">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <FlowPane prefHeight="0.0" prefWidth="0.0">
+         <children>
+            <Label text="At" />
+            <Label text=" " />
+            <Label text="least" />
+            <Label text=" " />
+            <Label text="one" />
+            <Label text=" " />
+            <Label text="employee" />
+            <Label text=" " />
+            <Label text="is" />
+            <Label text=" " />
+            <Label text="not" />
+            <Label text=" " />
+            <Label text="working" />
+            <Label text=" " />
+            <Label text="on" />
+            <Label text=" " />
+            <Label text="a" />
+            <Label text=" " />
+            <Label text="task" />
+            <Label text=" " />
+            <Label text="for" />
+            <Label text=" " />
+            <Label text="over" />
+            <Label text=" " />
+            <Label text="75%" />
+            <Label text=" " />
+            <Label text="of" />
+            <Label text=" " />
+            <Label text="the" />
+            <Label text=" " />
+            <Label text="project" />
+            <Label text=" " />
+            <Label text="duration." />
+         </children>
+      </FlowPane>
+   </children>
+</VBox>

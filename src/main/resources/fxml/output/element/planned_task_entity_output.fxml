@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="rootNode" spacing="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aspguidp.controller.output.element.impl.Planned_taskEntityOutputController">
+   <children>
+      <VBox minWidth="220.0" prefWidth="220.0" HBox.hgrow="NEVER">
+         <children>
+            <Label text="Project Plan">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" text="Project plan for the given project instance. The project plan contains all tasks of the project along with their planned starting time and ending time." wrapText="true" >
+                <VBox.margin>
+                    <Insets bottom="5.0" />
+                </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <ListView fx:id="entityList" styleClass="entity-list" minWidth="220.0" minHeight="80.0" prefHeight="0.0" prefWidth="0.0" HBox.hgrow="ALWAYS" />
+   </children>
+</HBox>

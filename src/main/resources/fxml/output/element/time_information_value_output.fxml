@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="rootNode" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aspguidp.controller.output.element.impl.Time_informationValueOutputController">
+   <children>
+      <FlowPane prefHeight="0.0" prefWidth="0.0">
+         <children>
+            <Label text="The" />
+            <Label text=" " />
+            <Label text="total" />
+            <Label text=" " />
+            <Label text="project" />
+            <Label text=" " />
+            <Label text="duration" />
+            <Label text=" " />
+            <Label text="is" />
+            <Label text=" " />
+            <Label fx:id="project_durationOutputLabel" text="::project_duration">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text=" " />
+            <Label fx:id="time_unit1OutputLabel" text="::time_unit1">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="." />
+            <Label text=" " />
+            <Label text="All" />
+            <Label text=" " />
+            <Label text="employees" />
+            <Label text=" " />
+            <Label text="are" />
+            <Label text=" " />
+            <Label text="working" />
+            <Label text=" " />
+            <Label text="on" />
+            <Label text=" " />
+            <Label text="a" />
+            <Label text=" " />
+            <Label text="task" />
+            <Label text=" " />
+            <Label text="simultaneously" />
+            <Label text=" " />
+            <Label text="for" />
+            <Label text=" " />
+            <Label text="a" />
+            <Label text=" " />
+            <Label text="total" />
+            <Label text=" " />
+            <Label text="of" />
+            <Label text=" " />
+            <Label fx:id="full_utilization_durationOutputLabel" text="::full_utilization_duration">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text=" " />
+            <Label fx:id="time_unit2OutputLabel" text="::time_unit2">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="." />
+         </children>
+      </FlowPane>
+   </children>
+</VBox>
